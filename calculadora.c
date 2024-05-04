@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int op, cont = 1; // Inicializa cont como 1
+    int op, cont = 1;
     float n1, n2, res;
     
     while(cont == 1) { // Usa == para comparação
@@ -14,7 +14,7 @@ int main() {
         printf("Insira o primeiro número:\n");
         scanf("%f", &n1);
         
-        printf("Insira o segundo número:\n"); // Corrigido o prompt
+        printf("Insira o segundo número:\n"); 
         scanf("%f", &n2);
         
         if(op == 1) {
@@ -40,7 +40,7 @@ int main() {
         printf("Se deseja continuar digite 1:\n");
         printf("Insira quaquer outro número:\n");
         scanf("%d", &cont);
-	printf("Fim.\n")
+	printf("Fim.\n");
     }
 
    
