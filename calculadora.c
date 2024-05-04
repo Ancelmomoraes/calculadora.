@@ -4,7 +4,7 @@ int main() {
     int op, cont = 1;
     float n1, n2, res;
     
-    while(cont == 1) { // Usa == para comparação
+    while(cont == 1) {
         printf("Digite 1 para somar:\n");
         printf("Digite 2 para subtrair:\n");
         printf("Digite 3 para multiplicar:\n");
